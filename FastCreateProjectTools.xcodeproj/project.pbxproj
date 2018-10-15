@@ -10,6 +10,7 @@
 		2468FF6FCACD44823A54BF04 /* libPods-FastCreateProjectTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1120BDBF9FF04D3B47B1683E /* libPods-FastCreateProjectTools.a */; };
 		6434863B21742E4B000CFA22 /* StorageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6434863A21742E4B000CFA22 /* StorageManager.m */; };
 		6434864021746ABA000CFA22 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6434863F21746ABA000CFA22 /* NetworkManager.m */; };
+		6434864421747CD8000CFA22 /* UIImageView+URLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6434864321747CD8000CFA22 /* UIImageView+URLImageView.m */; };
 		64F65B012170A24C00C4AF90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F65B002170A24C00C4AF90 /* AppDelegate.m */; };
 		64F65B042170A24C00C4AF90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F65B032170A24C00C4AF90 /* ViewController.m */; };
 		64F65B072170A24C00C4AF90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F65B052170A24C00C4AF90 /* Main.storyboard */; };
@@ -25,6 +26,8 @@
 		6434863A21742E4B000CFA22 /* StorageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StorageManager.m; sourceTree = "<group>"; };
 		6434863E21746ABA000CFA22 /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
 		6434863F21746ABA000CFA22 /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		6434864221747CD8000CFA22 /* UIImageView+URLImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+URLImageView.h"; sourceTree = "<group>"; };
+		6434864321747CD8000CFA22 /* UIImageView+URLImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+URLImageView.m"; sourceTree = "<group>"; };
 		64F65AFC2170A24C00C4AF90 /* FastCreateProjectTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastCreateProjectTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F65AFF2170A24C00C4AF90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64F65B002170A24C00C4AF90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +81,15 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
+		6434864121747A93000CFA22 /* URLImageView */ = {
+			isa = PBXGroup;
+			children = (
+				6434864221747CD8000CFA22 /* UIImageView+URLImageView.h */,
+				6434864321747CD8000CFA22 /* UIImageView+URLImageView.m */,
+			);
+			path = URLImageView;
+			sourceTree = "<group>";
+		};
 		64F65AF32170A24C00C4AF90 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +111,7 @@
 		64F65AFE2170A24C00C4AF90 /* FastCreateProjectTools */ = {
 			isa = PBXGroup;
 			children = (
+				6434864121747A93000CFA22 /* URLImageView */,
 				6434863D21746A6D000CFA22 /* Network */,
 				6434863C21746A5A000CFA22 /* DB */,
 				64F65AFF2170A24C00C4AF90 /* AppDelegate.h */,
@@ -245,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64F65B042170A24C00C4AF90 /* ViewController.m in Sources */,
+				6434864421747CD8000CFA22 /* UIImageView+URLImageView.m in Sources */,
 				64F65B0F2170A27000C4AF90 /* main.m in Sources */,
 				64F65B012170A24C00C4AF90 /* AppDelegate.m in Sources */,
 				6434864021746ABA000CFA22 /* NetworkManager.m in Sources */,

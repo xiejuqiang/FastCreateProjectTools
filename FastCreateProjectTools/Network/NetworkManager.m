@@ -8,7 +8,7 @@
 
 #import "NetworkManager.h"
 
-static NSString *kBaseUrl = @"http://192.168.1.54/";
+static NSString *kBaseUrl = @"";//服务器接口地址
 @interface HttpClient : AFHTTPSessionManager
 + (instancetype)shareIntance;
 
