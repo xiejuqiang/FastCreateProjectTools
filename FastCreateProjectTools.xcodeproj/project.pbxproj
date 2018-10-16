@@ -63,13 +63,13 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		6434863C21746A5A000CFA22 /* DB */ = {
+		6434863C21746A5A000CFA22 /* Storage */ = {
 			isa = PBXGroup;
 			children = (
 				6434863921742E4B000CFA22 /* StorageManager.h */,
 				6434863A21742E4B000CFA22 /* StorageManager.m */,
 			);
-			path = DB;
+			path = Storage;
 			sourceTree = "<group>";
 		};
 		6434863D21746A6D000CFA22 /* Network */ = {
@@ -113,7 +113,7 @@
 			children = (
 				6434864121747A93000CFA22 /* URLImageView */,
 				6434863D21746A6D000CFA22 /* Network */,
-				6434863C21746A5A000CFA22 /* DB */,
+				6434863C21746A5A000CFA22 /* Storage */,
 				64F65AFF2170A24C00C4AF90 /* AppDelegate.h */,
 				64F65B002170A24C00C4AF90 /* AppDelegate.m */,
 				64F65B022170A24C00C4AF90 /* ViewController.h */,
