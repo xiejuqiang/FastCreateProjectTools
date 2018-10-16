@@ -11,6 +11,7 @@
 		6434863B21742E4B000CFA22 /* StorageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6434863A21742E4B000CFA22 /* StorageManager.m */; };
 		6434864021746ABA000CFA22 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6434863F21746ABA000CFA22 /* NetworkManager.m */; };
 		6434864421747CD8000CFA22 /* UIImageView+URLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6434864321747CD8000CFA22 /* UIImageView+URLImageView.m */; };
+		6434864A2175C7F5000CFA22 /* HUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 643486492175C7F5000CFA22 /* HUDManager.m */; };
 		64F65B012170A24C00C4AF90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F65B002170A24C00C4AF90 /* AppDelegate.m */; };
 		64F65B042170A24C00C4AF90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F65B032170A24C00C4AF90 /* ViewController.m */; };
 		64F65B072170A24C00C4AF90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F65B052170A24C00C4AF90 /* Main.storyboard */; };
@@ -28,6 +29,8 @@
 		6434863F21746ABA000CFA22 /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 		6434864221747CD8000CFA22 /* UIImageView+URLImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+URLImageView.h"; sourceTree = "<group>"; };
 		6434864321747CD8000CFA22 /* UIImageView+URLImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+URLImageView.m"; sourceTree = "<group>"; };
+		643486482175C7F5000CFA22 /* HUDManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUDManager.h; sourceTree = "<group>"; };
+		643486492175C7F5000CFA22 /* HUDManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUDManager.m; sourceTree = "<group>"; };
 		64F65AFC2170A24C00C4AF90 /* FastCreateProjectTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastCreateProjectTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F65AFF2170A24C00C4AF90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64F65B002170A24C00C4AF90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -90,6 +93,43 @@
 			path = URLImageView;
 			sourceTree = "<group>";
 		};
+		643486452175BD46000CFA22 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				64F65AFF2170A24C00C4AF90 /* AppDelegate.h */,
+				64F65B002170A24C00C4AF90 /* AppDelegate.m */,
+				64F65B022170A24C00C4AF90 /* ViewController.h */,
+				64F65B032170A24C00C4AF90 /* ViewController.m */,
+				64F65B052170A24C00C4AF90 /* Main.storyboard */,
+				64F65B082170A27000C4AF90 /* Assets.xcassets */,
+				64F65B0A2170A27000C4AF90 /* LaunchScreen.storyboard */,
+				64F65B0D2170A27000C4AF90 /* Info.plist */,
+				64F65B0E2170A27000C4AF90 /* main.m */,
+				6434863821742A0C000CFA22 /* PrefixHeader.pch */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		643486462175BF15000CFA22 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				643486472175C79A000CFA22 /* HUD */,
+				6434864121747A93000CFA22 /* URLImageView */,
+				6434863D21746A6D000CFA22 /* Network */,
+				6434863C21746A5A000CFA22 /* Storage */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		643486472175C79A000CFA22 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				643486482175C7F5000CFA22 /* HUDManager.h */,
+				643486492175C7F5000CFA22 /* HUDManager.m */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
 		64F65AF32170A24C00C4AF90 = {
 			isa = PBXGroup;
 			children = (
@@ -111,19 +151,8 @@
 		64F65AFE2170A24C00C4AF90 /* FastCreateProjectTools */ = {
 			isa = PBXGroup;
 			children = (
-				6434864121747A93000CFA22 /* URLImageView */,
-				6434863D21746A6D000CFA22 /* Network */,
-				6434863C21746A5A000CFA22 /* Storage */,
-				64F65AFF2170A24C00C4AF90 /* AppDelegate.h */,
-				64F65B002170A24C00C4AF90 /* AppDelegate.m */,
-				64F65B022170A24C00C4AF90 /* ViewController.h */,
-				64F65B032170A24C00C4AF90 /* ViewController.m */,
-				64F65B052170A24C00C4AF90 /* Main.storyboard */,
-				64F65B082170A27000C4AF90 /* Assets.xcassets */,
-				64F65B0A2170A27000C4AF90 /* LaunchScreen.storyboard */,
-				64F65B0D2170A27000C4AF90 /* Info.plist */,
-				64F65B0E2170A27000C4AF90 /* main.m */,
-				6434863821742A0C000CFA22 /* PrefixHeader.pch */,
+				643486452175BD46000CFA22 /* App */,
+				643486462175BF15000CFA22 /* Tools */,
 			);
 			path = FastCreateProjectTools;
 			sourceTree = "<group>";
@@ -261,6 +290,7 @@
 				6434864421747CD8000CFA22 /* UIImageView+URLImageView.m in Sources */,
 				64F65B0F2170A27000C4AF90 /* main.m in Sources */,
 				64F65B012170A24C00C4AF90 /* AppDelegate.m in Sources */,
+				6434864A2175C7F5000CFA22 /* HUDManager.m in Sources */,
 				6434864021746ABA000CFA22 /* NetworkManager.m in Sources */,
 				6434863B21742E4B000CFA22 /* StorageManager.m in Sources */,
 			);
@@ -409,8 +439,8 @@
 				DEVELOPMENT_TEAM = ZKA8LL3ZLJ;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/FastCreateProjectTools/PrefixHeader.pch";
-				INFOPLIST_FILE = FastCreateProjectTools/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FastCreateProjectTools/App/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/FastCreateProjectTools/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -432,8 +462,8 @@
 				DEVELOPMENT_TEAM = ZKA8LL3ZLJ;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/FastCreateProjectTools/PrefixHeader.pch";
-				INFOPLIST_FILE = FastCreateProjectTools/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FastCreateProjectTools/App/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/FastCreateProjectTools/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
