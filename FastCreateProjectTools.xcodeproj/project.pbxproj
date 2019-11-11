@@ -3,25 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2468FF6FCACD44823A54BF04 /* libPods-FastCreateProjectTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1120BDBF9FF04D3B47B1683E /* libPods-FastCreateProjectTools.a */; };
+		2C3DA59E2378F2BC00CEA082 /* JQMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3DA59D2378F2BC00CEA082 /* JQMainTabBarController.m */; };
 		6434863B21742E4B000CFA22 /* StorageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6434863A21742E4B000CFA22 /* StorageManager.m */; };
 		6434864021746ABA000CFA22 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6434863F21746ABA000CFA22 /* NetworkManager.m */; };
 		6434864421747CD8000CFA22 /* UIImageView+URLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6434864321747CD8000CFA22 /* UIImageView+URLImageView.m */; };
 		6434864A2175C7F5000CFA22 /* HUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 643486492175C7F5000CFA22 /* HUDManager.m */; };
 		64F65B012170A24C00C4AF90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F65B002170A24C00C4AF90 /* AppDelegate.m */; };
-		64F65B042170A24C00C4AF90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F65B032170A24C00C4AF90 /* ViewController.m */; };
-		64F65B072170A24C00C4AF90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F65B052170A24C00C4AF90 /* Main.storyboard */; };
 		64F65B092170A27000C4AF90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F65B082170A27000C4AF90 /* Assets.xcassets */; };
-		64F65B0C2170A27000C4AF90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F65B0A2170A27000C4AF90 /* LaunchScreen.storyboard */; };
 		64F65B0F2170A27000C4AF90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F65B0E2170A27000C4AF90 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1120BDBF9FF04D3B47B1683E /* libPods-FastCreateProjectTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FastCreateProjectTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C3DA59923750B8E00CEA082 /* AppMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
+		2C3DA59C2378F2BC00CEA082 /* JQMainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQMainTabBarController.h; sourceTree = "<group>"; };
+		2C3DA59D2378F2BC00CEA082 /* JQMainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQMainTabBarController.m; sourceTree = "<group>"; };
 		6434863821742A0C000CFA22 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		6434863921742E4B000CFA22 /* StorageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StorageManager.h; sourceTree = "<group>"; };
 		6434863A21742E4B000CFA22 /* StorageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StorageManager.m; sourceTree = "<group>"; };
@@ -34,11 +35,7 @@
 		64F65AFC2170A24C00C4AF90 /* FastCreateProjectTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastCreateProjectTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F65AFF2170A24C00C4AF90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64F65B002170A24C00C4AF90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		64F65B022170A24C00C4AF90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		64F65B032170A24C00C4AF90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		64F65B062170A24C00C4AF90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64F65B082170A27000C4AF90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		64F65B0B2170A27000C4AF90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64F65B0D2170A27000C4AF90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64F65B0E2170A27000C4AF90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8DA40A8A96033385EADA5444 /* Pods-FastCreateProjectTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastCreateProjectTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-FastCreateProjectTools/Pods-FastCreateProjectTools.release.xcconfig"; sourceTree = "<group>"; };
@@ -57,6 +54,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C3DA59823750B2C00CEA082 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				2C3DA59923750B8E00CEA082 /* AppMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		2C3DA59A2375181F00CEA082 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2C3DA59B2378F18900CEA082 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2C3DA59C2378F2BC00CEA082 /* JQMainTabBarController.h */,
+				2C3DA59D2378F2BC00CEA082 /* JQMainTabBarController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		30D589F6F8EBB753DC0C8CD0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,13 +117,10 @@
 		643486452175BD46000CFA22 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				2C3DA59B2378F18900CEA082 /* Main */,
 				64F65AFF2170A24C00C4AF90 /* AppDelegate.h */,
 				64F65B002170A24C00C4AF90 /* AppDelegate.m */,
-				64F65B022170A24C00C4AF90 /* ViewController.h */,
-				64F65B032170A24C00C4AF90 /* ViewController.m */,
-				64F65B052170A24C00C4AF90 /* Main.storyboard */,
 				64F65B082170A27000C4AF90 /* Assets.xcassets */,
-				64F65B0A2170A27000C4AF90 /* LaunchScreen.storyboard */,
 				64F65B0D2170A27000C4AF90 /* Info.plist */,
 				64F65B0E2170A27000C4AF90 /* main.m */,
 				6434863821742A0C000CFA22 /* PrefixHeader.pch */,
@@ -113,6 +131,8 @@
 		643486462175BF15000CFA22 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				2C3DA59A2375181F00CEA082 /* Category */,
+				2C3DA59823750B2C00CEA082 /* Macro */,
 				643486472175C79A000CFA22 /* HUD */,
 				6434864121747A93000CFA22 /* URLImageView */,
 				6434863D21746A6D000CFA22 /* Network */,
@@ -193,6 +213,7 @@
 		64F65AF42170A24C00C4AF90 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JQ;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = juqiangxie;
 				TargetAttributes = {
@@ -224,9 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64F65B0C2170A27000C4AF90 /* LaunchScreen.storyboard in Resources */,
 				64F65B092170A27000C4AF90 /* Assets.xcassets in Resources */,
-				64F65B072170A24C00C4AF90 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,22 +280,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-FastCreateProjectTools/Pods-FastCreateProjectTools-resources.sh",
-				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
-				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-FastCreateProjectTools/Pods-FastCreateProjectTools-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-FastCreateProjectTools/Pods-FastCreateProjectTools-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FastCreateProjectTools/Pods-FastCreateProjectTools-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FastCreateProjectTools/Pods-FastCreateProjectTools-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -286,8 +298,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64F65B042170A24C00C4AF90 /* ViewController.m in Sources */,
 				6434864421747CD8000CFA22 /* UIImageView+URLImageView.m in Sources */,
+				2C3DA59E2378F2BC00CEA082 /* JQMainTabBarController.m in Sources */,
 				64F65B0F2170A27000C4AF90 /* main.m in Sources */,
 				64F65B012170A24C00C4AF90 /* AppDelegate.m in Sources */,
 				6434864A2175C7F5000CFA22 /* HUDManager.m in Sources */,
@@ -297,25 +309,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		64F65B052170A24C00C4AF90 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				64F65B062170A24C00C4AF90 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		64F65B0A2170A27000C4AF90 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				64F65B0B2170A27000C4AF90 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		64F65B102170A27000C4AF90 /* Debug */ = {

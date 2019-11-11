@@ -19,6 +19,9 @@
 #import <MJRefresh.h>
 #import <YYModel/YYModel.h>
 #import "WHC_ModelSqlite.h"
+#import <TZImagePickerController/TZImagePickerController.h>
+
+#import "AppMacro.h"
 #import "StorageManager.h"
 #import "NetworkManager.h"
 

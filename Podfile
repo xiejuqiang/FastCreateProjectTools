@@ -11,5 +11,7 @@ target 'FastCreateProjectTools' do
   pod 'IQKeyboardManager'
   pod 'YYModel'
   pod 'WHC_ModelSqliteKit'
+  pod 'TZImagePickerController'
+  pod 'CYLTabBarController'
 
 end
