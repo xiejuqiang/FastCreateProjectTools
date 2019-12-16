@@ -1,8 +1,8 @@
 //
-//  JQMainTabBarController.h
+//  JQBaseViewController.h
 //  FastCreateProjectTools
 //
-//  Created by xiejuqiang on 2019/11/11.
+//  Created by xiejuqiang on 2019/12/16.
 //  Copyright © 2019 juqiangxie. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface JQMainTabBarController : UITabBarController
+@interface JQBaseViewController : UIViewController
 
 @end
 

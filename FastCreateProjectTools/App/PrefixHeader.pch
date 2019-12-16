@@ -20,6 +20,9 @@
 #import <YYModel/YYModel.h>
 #import "WHC_ModelSqlite.h"
 #import <TZImagePickerController/TZImagePickerController.h>
+#import <FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h>
+
+#import "JQBaseViewController.h"
 
 #import "AppMacro.h"
 #import "StorageManager.h"

@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		2468FF6FCACD44823A54BF04 /* libPods-FastCreateProjectTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1120BDBF9FF04D3B47B1683E /* libPods-FastCreateProjectTools.a */; };
 		2C3DA59E2378F2BC00CEA082 /* JQMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3DA59D2378F2BC00CEA082 /* JQMainTabBarController.m */; };
+		2CC257BD23A7227100DDD071 /* JQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC257BC23A7227100DDD071 /* JQBaseViewController.m */; };
+		2CC257C023A722A300DDD071 /* JQHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC257BF23A722A300DDD071 /* JQHomeViewController.m */; };
+		2CC257C423A722BD00DDD071 /* JQAroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC257C323A722BD00DDD071 /* JQAroundViewController.m */; };
+		2CC257C723A725EA00DDD071 /* UIColor+Peanut.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC257C623A725EA00DDD071 /* UIColor+Peanut.m */; };
 		6434863B21742E4B000CFA22 /* StorageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6434863A21742E4B000CFA22 /* StorageManager.m */; };
 		6434864021746ABA000CFA22 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6434863F21746ABA000CFA22 /* NetworkManager.m */; };
 		6434864421747CD8000CFA22 /* UIImageView+URLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6434864321747CD8000CFA22 /* UIImageView+URLImageView.m */; };
@@ -23,6 +27,14 @@
 		2C3DA59923750B8E00CEA082 /* AppMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
 		2C3DA59C2378F2BC00CEA082 /* JQMainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQMainTabBarController.h; sourceTree = "<group>"; };
 		2C3DA59D2378F2BC00CEA082 /* JQMainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQMainTabBarController.m; sourceTree = "<group>"; };
+		2CC257BB23A7227100DDD071 /* JQBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQBaseViewController.h; sourceTree = "<group>"; };
+		2CC257BC23A7227100DDD071 /* JQBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQBaseViewController.m; sourceTree = "<group>"; };
+		2CC257BE23A722A300DDD071 /* JQHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQHomeViewController.h; sourceTree = "<group>"; };
+		2CC257BF23A722A300DDD071 /* JQHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQHomeViewController.m; sourceTree = "<group>"; };
+		2CC257C223A722BD00DDD071 /* JQAroundViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQAroundViewController.h; sourceTree = "<group>"; };
+		2CC257C323A722BD00DDD071 /* JQAroundViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQAroundViewController.m; sourceTree = "<group>"; };
+		2CC257C523A725E900DDD071 /* UIColor+Peanut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Peanut.h"; sourceTree = "<group>"; };
+		2CC257C623A725EA00DDD071 /* UIColor+Peanut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Peanut.m"; sourceTree = "<group>"; };
 		6434863821742A0C000CFA22 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		6434863921742E4B000CFA22 /* StorageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StorageManager.h; sourceTree = "<group>"; };
 		6434863A21742E4B000CFA22 /* StorageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StorageManager.m; sourceTree = "<group>"; };
@@ -65,6 +77,8 @@
 		2C3DA59A2375181F00CEA082 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				2CC257C523A725E900DDD071 /* UIColor+Peanut.h */,
+				2CC257C623A725EA00DDD071 /* UIColor+Peanut.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -74,8 +88,53 @@
 			children = (
 				2C3DA59C2378F2BC00CEA082 /* JQMainTabBarController.h */,
 				2C3DA59D2378F2BC00CEA082 /* JQMainTabBarController.m */,
+				2CC257BB23A7227100DDD071 /* JQBaseViewController.h */,
+				2CC257BC23A7227100DDD071 /* JQBaseViewController.m */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		2CC257B723A7220500DDD071 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2CC257B923A7221E00DDD071 /* Around */,
+				2CC257B823A7221300DDD071 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		2CC257B823A7221300DDD071 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2CC257BA23A7223800DDD071 /* VC */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2CC257B923A7221E00DDD071 /* Around */ = {
+			isa = PBXGroup;
+			children = (
+				2CC257C123A722AE00DDD071 /* VC */,
+			);
+			path = Around;
+			sourceTree = "<group>";
+		};
+		2CC257BA23A7223800DDD071 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				2CC257BE23A722A300DDD071 /* JQHomeViewController.h */,
+				2CC257BF23A722A300DDD071 /* JQHomeViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		2CC257C123A722AE00DDD071 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				2CC257C223A722BD00DDD071 /* JQAroundViewController.h */,
+				2CC257C323A722BD00DDD071 /* JQAroundViewController.m */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 		30D589F6F8EBB753DC0C8CD0 /* Pods */ = {
@@ -117,6 +176,7 @@
 		643486452175BD46000CFA22 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				2CC257B723A7220500DDD071 /* Modules */,
 				2C3DA59B2378F18900CEA082 /* Main */,
 				64F65AFF2170A24C00C4AF90 /* AppDelegate.h */,
 				64F65B002170A24C00C4AF90 /* AppDelegate.m */,
@@ -298,12 +358,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CC257C023A722A300DDD071 /* JQHomeViewController.m in Sources */,
 				6434864421747CD8000CFA22 /* UIImageView+URLImageView.m in Sources */,
 				2C3DA59E2378F2BC00CEA082 /* JQMainTabBarController.m in Sources */,
 				64F65B0F2170A27000C4AF90 /* main.m in Sources */,
 				64F65B012170A24C00C4AF90 /* AppDelegate.m in Sources */,
 				6434864A2175C7F5000CFA22 /* HUDManager.m in Sources */,
 				6434864021746ABA000CFA22 /* NetworkManager.m in Sources */,
+				2CC257BD23A7227100DDD071 /* JQBaseViewController.m in Sources */,
+				2CC257C723A725EA00DDD071 /* UIColor+Peanut.m in Sources */,
+				2CC257C423A722BD00DDD071 /* JQAroundViewController.m in Sources */,
 				6434863B21742E4B000CFA22 /* StorageManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,12 +493,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZKA8LL3ZLJ;
+				DEVELOPMENT_TEAM = DP7A622WVH;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FastCreateProjectTools/App/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/FastCreateProjectTools/App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,7 +506,7 @@
 				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nfyg.FastCreateProjectTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -452,12 +516,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZKA8LL3ZLJ;
+				DEVELOPMENT_TEAM = DP7A622WVH;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FastCreateProjectTools/App/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/FastCreateProjectTools/App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,7 +529,7 @@
 				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nfyg.FastCreateProjectTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
