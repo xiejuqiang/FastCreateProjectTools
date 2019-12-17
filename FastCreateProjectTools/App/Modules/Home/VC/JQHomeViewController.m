@@ -22,6 +22,8 @@
 
 - (void)_initData{
     self.navigationItem.title = @"首页";
+    
+    
 }
 
 @end

@@ -22,10 +22,33 @@
 #import <TZImagePickerController/TZImagePickerController.h>
 #import <FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h>
 
-#import "JQBaseViewController.h"
+///============= tools =================
+///categories
+//ui
+#import "UIView+Corner.h"
+#import "UIView+Peanut.h"
+#import "UIView+Animation.h"
+#import "UIColor+Peanut.h"
+#import "UIButton+BlockActionTarget.h"
+#import "UILabel+Peanut.h"
+#import "UIImage+Peanut.h"
+
+//foundation
+#import "NSArray+Peanut.h"
+#import "NSMutableArray+Peanut.h"
+#import "NSData+PeanutAES128.h"
+#import "NSString+Peanut.h"
+#import "NSString+encodeURL.h"
+#import "NSString+PeanutAES128.h"
+
 
 #import "AppMacro.h"
 #import "StorageManager.h"
 #import "NetworkManager.h"
+#import "UIImageView+URLImageView.h"
+#import "HUDManager.h"
+
+#import "JQBaseViewController.h"
+
 
 #endif /* PrefixHeader_pch */
