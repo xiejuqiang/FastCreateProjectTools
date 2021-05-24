@@ -12,5 +12,6 @@ target 'FastCreateProjectTools' do
   pod 'YYModel'
   pod 'WHC_ModelSqliteKit'
   pod 'TZImagePickerController'
+  pod 'TABAnimated'
 
 end

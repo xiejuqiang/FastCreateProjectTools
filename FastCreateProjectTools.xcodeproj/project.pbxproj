@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		2468FF6FCACD44823A54BF04 /* libPods-FastCreateProjectTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1120BDBF9FF04D3B47B1683E /* libPods-FastCreateProjectTools.a */; };
 		2C3DA59E2378F2BC00CEA082 /* JQMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3DA59D2378F2BC00CEA082 /* JQMainTabBarController.m */; };
+		2C5047132506331000FD5484 /* JQHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5047122506331000FD5484 /* JQHomeView.m */; };
+		2CBF3019251DE25300A6C09F /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBF2FE4251DBDE200A6C09F /* WidgetKit.framework */; };
+		2CBF301A251DE25300A6C09F /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBF2FE6251DBDE300A6C09F /* SwiftUI.framework */; };
+		2CBF301D251DE25300A6C09F /* FastCreateProWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF301C251DE25300A6C09F /* FastCreateProWidget.swift */; };
+		2CBF301F251DE25500A6C09F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CBF301E251DE25500A6C09F /* Assets.xcassets */; };
+		2CBF3023251DE25500A6C09F /* FastCreateProWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2CBF3018251DE25300A6C09F /* FastCreateProWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2CC257BD23A7227100DDD071 /* JQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC257BC23A7227100DDD071 /* JQBaseViewController.m */; };
 		2CC257C023A722A300DDD071 /* JQHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC257BF23A722A300DDD071 /* JQHomeViewController.m */; };
 		2CC257C423A722BD00DDD071 /* JQAroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC257C323A722BD00DDD071 /* JQAroundViewController.m */; };
@@ -35,11 +41,43 @@
 		64F65B0F2170A27000C4AF90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F65B0E2170A27000C4AF90 /* main.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2CBF3021251DE25500A6C09F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64F65AF42170A24C00C4AF90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CBF3017251DE25300A6C09F;
+			remoteInfo = FastCreateProWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2CBF2FF4251DBDEB00A6C09F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2CBF3023251DE25500A6C09F /* FastCreateProWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1120BDBF9FF04D3B47B1683E /* libPods-FastCreateProjectTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FastCreateProjectTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C3DA59923750B8E00CEA082 /* AppMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
 		2C3DA59C2378F2BC00CEA082 /* JQMainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQMainTabBarController.h; sourceTree = "<group>"; };
 		2C3DA59D2378F2BC00CEA082 /* JQMainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQMainTabBarController.m; sourceTree = "<group>"; };
+		2C5047112506331000FD5484 /* JQHomeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQHomeView.h; sourceTree = "<group>"; };
+		2C5047122506331000FD5484 /* JQHomeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQHomeView.m; sourceTree = "<group>"; };
+		2CBF2FE4251DBDE200A6C09F /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		2CBF2FE6251DBDE300A6C09F /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		2CBF3018251DE25300A6C09F /* FastCreateProWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FastCreateProWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CBF301C251DE25300A6C09F /* FastCreateProWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastCreateProWidget.swift; sourceTree = "<group>"; };
+		2CBF301E251DE25500A6C09F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CBF3020251DE25500A6C09F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CC257BB23A7227100DDD071 /* JQBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQBaseViewController.h; sourceTree = "<group>"; };
 		2CC257BC23A7227100DDD071 /* JQBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JQBaseViewController.m; sourceTree = "<group>"; };
 		2CC257BE23A722A300DDD071 /* JQHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JQHomeViewController.h; sourceTree = "<group>"; };
@@ -95,6 +133,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2CBF3015251DE25300A6C09F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBF301A251DE25300A6C09F /* SwiftUI.framework in Frameworks */,
+				2CBF3019251DE25300A6C09F /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64F65AF92170A24C00C4AF90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -134,6 +181,25 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		2C504710250632ED00FD5484 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C5047112506331000FD5484 /* JQHomeView.h */,
+				2C5047122506331000FD5484 /* JQHomeView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2CBF301B251DE25300A6C09F /* FastCreateProWidget */ = {
+			isa = PBXGroup;
+			children = (
+				2CBF301C251DE25300A6C09F /* FastCreateProWidget.swift */,
+				2CBF301E251DE25500A6C09F /* Assets.xcassets */,
+				2CBF3020251DE25500A6C09F /* Info.plist */,
+			);
+			path = FastCreateProWidget;
+			sourceTree = "<group>";
+		};
 		2CC257B723A7220500DDD071 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +212,7 @@
 		2CC257B823A7221300DDD071 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				2C504710250632ED00FD5484 /* Views */,
 				2CC257BA23A7223800DDD071 /* VC */,
 			);
 			path = Home;
@@ -312,6 +379,7 @@
 			isa = PBXGroup;
 			children = (
 				64F65AFE2170A24C00C4AF90 /* FastCreateProjectTools */,
+				2CBF301B251DE25300A6C09F /* FastCreateProWidget */,
 				64F65AFD2170A24C00C4AF90 /* Products */,
 				30D589F6F8EBB753DC0C8CD0 /* Pods */,
 				8E65ED4F21277A15B6F95B1B /* Frameworks */,
@@ -322,6 +390,7 @@
 			isa = PBXGroup;
 			children = (
 				64F65AFC2170A24C00C4AF90 /* FastCreateProjectTools.app */,
+				2CBF3018251DE25300A6C09F /* FastCreateProWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -340,6 +409,8 @@
 			isa = PBXGroup;
 			children = (
 				1120BDBF9FF04D3B47B1683E /* libPods-FastCreateProjectTools.a */,
+				2CBF2FE4251DBDE200A6C09F /* WidgetKit.framework */,
+				2CBF2FE6251DBDE300A6C09F /* SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -347,6 +418,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2CBF3017251DE25300A6C09F /* FastCreateProWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CBF3024251DE25500A6C09F /* Build configuration list for PBXNativeTarget "FastCreateProWidgetExtension" */;
+			buildPhases = (
+				2CBF3014251DE25300A6C09F /* Sources */,
+				2CBF3015251DE25300A6C09F /* Frameworks */,
+				2CBF3016251DE25300A6C09F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastCreateProWidgetExtension;
+			productName = FastCreateProWidgetExtension;
+			productReference = 2CBF3018251DE25300A6C09F /* FastCreateProWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		64F65AFB2170A24C00C4AF90 /* FastCreateProjectTools */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64F65B122170A27000C4AF90 /* Build configuration list for PBXNativeTarget "FastCreateProjectTools" */;
@@ -356,10 +444,12 @@
 				64F65AF92170A24C00C4AF90 /* Frameworks */,
 				64F65AFA2170A24C00C4AF90 /* Resources */,
 				C80C7184A371500CE6F0DD11 /* [CP] Copy Pods Resources */,
+				2CBF2FF4251DBDEB00A6C09F /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2CBF3022251DE25500A6C09F /* PBXTargetDependency */,
 			);
 			name = FastCreateProjectTools;
 			productName = FastCreateProjectTools;
@@ -373,9 +463,13 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = JQ;
+				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = juqiangxie;
 				TargetAttributes = {
+					2CBF3017251DE25300A6C09F = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					64F65AFB2170A24C00C4AF90 = {
 						CreatedOnToolsVersion = 10.0;
 					};
@@ -395,11 +489,20 @@
 			projectRoot = "";
 			targets = (
 				64F65AFB2170A24C00C4AF90 /* FastCreateProjectTools */,
+				2CBF3017251DE25300A6C09F /* FastCreateProWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2CBF3016251DE25300A6C09F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBF301F251DE25500A6C09F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64F65AFA2170A24C00C4AF90 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -453,6 +556,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2CBF3014251DE25300A6C09F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBF301D251DE25300A6C09F /* FastCreateProWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64F65AF82170A24C00C4AF90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -477,6 +588,7 @@
 				2CC257F623A8BA2F00DDD071 /* GTMBase64.m in Sources */,
 				2CC257BD23A7227100DDD071 /* JQBaseViewController.m in Sources */,
 				2CC2580823A8BD6100DDD071 /* UIImage+Peanut.m in Sources */,
+				2C5047132506331000FD5484 /* JQHomeView.m in Sources */,
 				2CC2581923A8BFB500DDD071 /* NSMutableArray+Peanut.m in Sources */,
 				2CC257C723A725EA00DDD071 /* UIColor+Peanut.m in Sources */,
 				2CC257C423A722BD00DDD071 /* JQAroundViewController.m in Sources */,
@@ -486,7 +598,65 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		2CBF3022251DE25500A6C09F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CBF3017251DE25300A6C09F /* FastCreateProWidgetExtension */;
+			targetProxy = 2CBF3021251DE25500A6C09F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		2CBF3025251DE25500A6C09F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DP7A622WVH;
+				INFOPLIST_FILE = FastCreateProWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nfyg.FastCreateProjectTools.FastCreateProWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CBF3026251DE25500A6C09F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DP7A622WVH;
+				INFOPLIST_FILE = FastCreateProWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nfyg.FastCreateProjectTools.FastCreateProWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		64F65B102170A27000C4AF90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -603,6 +773,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A93493A8FBCF18FF8649960B /* Pods-FastCreateProjectTools.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DP7A622WVH;
@@ -626,6 +797,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8DA40A8A96033385EADA5444 /* Pods-FastCreateProjectTools.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DP7A622WVH;
@@ -648,6 +820,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2CBF3024251DE25500A6C09F /* Build configuration list for PBXNativeTarget "FastCreateProWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CBF3025251DE25500A6C09F /* Debug */,
+				2CBF3026251DE25500A6C09F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		64F65AF72170A24C00C4AF90 /* Build configuration list for PBXProject "FastCreateProjectTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

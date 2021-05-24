@@ -1,4 +1,7 @@
 ${PODS_ROOT}/Target Support Files/Pods-FastCreateProjectTools/Pods-FastCreateProjectTools-resources.sh
 ${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle
 ${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle
+${PODS_ROOT}/TABAnimated/AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/Source/TabAnimatedLogo.png
+${PODS_ROOT}/TABAnimated/AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/Source/tab_reveal_close.png
+${PODS_ROOT}/TABAnimated/AnimatedDemo/AnimatedDemo/TABAnimated/Reveal/Source/tab_reveal_close_bigger.png
 ${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle
